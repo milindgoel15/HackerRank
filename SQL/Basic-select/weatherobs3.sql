@@ -1,0 +1,4 @@
+/*
+Enter your query here.
+*/
+SELECT DISTINCT CITY FROM STATION WHERE (ID % 2) = 0 AND LAT_N > 0 AND LONG_W > 0;
